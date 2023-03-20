@@ -1,0 +1,197 @@
+body {
+    
+    background-color: #B0DEFF !important;
+    ;
+
+     
+    }
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: #B0DEFF !important;
+    }
+}
+
+.content-fluid {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+/* :::::::::::::: START NAVIGATION ::::::::::::::*/
+
+nav.navbar {
+    padding-left: 35px;
+    padding-right: 27px;
+}
+
+.navbar-brand {
+    margin: 0px;
+}
+
+nav .navbar-nav li a.dropdown-item:hover {
+    color: #B0DEFF;
+    background-color: #FFFF;
+}
+
+nav .navbar-nav li {
+    padding-right: 3px;
+}
+
+nav .navbar-nav li a {
+    color: black;
+    font-size: 20px;
+}
+
+nav .navbar-nav li a:hover, nav .navbar-nav li a:visited {
+    color: black;
+}
+
+
+/* :::::::::::::: END NAVIGATION ::::::::::::::*/
+/* :::::::::::::: END NAVIGATION ::::::::::::::*/
+
+/* ....!:::::::::: START HALAMAN DASHBOARD ::::::::::!....*/
+/* :::::::::::::: START SECTION DESCRIPTION ::::::::::::::*/
+
+section.decsription {
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.bg-transparent.scrolled {
+    background: #FFFFFF !important;
+    shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.descawal {
+    font-size: 35px;
+    text-align: left; 
+    color: black;
+    font-weight: 600;
+    line-height: 38px;
+    padding-bottom: 0px
+    margin-right: 60px;
+    
+    
+
+}
+
+.descawal2 {
+    font-size: 20px;
+    text-align: left; 
+    color: black;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    line-height: 40px;
+    font-weight: 500;
+
+
+}
+
+.vectorawal {
+    float: right;
+    position: absolute; 
+    width: 500px;
+    margin-left: 700px;
+    margin-bottom: 10px;
+    top: 100px;
+      
+}
+
+/* :::::::::::::: START SECTION menu  ::::::::::::::*/
+.statistik {
+    padding-top: 1px !important;
+    padding-bottom: 80px;
+    
+}
+
+.stat {
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 39px;
+    color: #000;
+    padding-bottom: 62px;
+}
+
+.row {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.boxstat {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    width: 106px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+   
+    
+}
+
+.boxstat .contenstat {
+    margin-top: auto;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+@media only screen and (max-width: 600px) { 
+    .boxstat .contenstat {
+        padding-bottom: 20px !important;    
+    }
+}
+
+.boxstat .contenstat img {
+    width: 68px;
+    height: 68px !important;
+}
+
+.boxstat .contenstat h2 {
+    font-style: normal;
+    font-size: 15px;
+    /* identical to box height */
+    color: #000000;
+    font-weight: 430;
+    line-height: 38px;
+    margin-bottom: 0px;
+
+}
+
+.boxstat .contenstat h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    color: #000000;
+    margin-bottom: 0px;
+
+}
+
+/* :::::::::::::: END SECTION menu ::::::::::::::*/
+
+/*:::::::::::::::: START Table::::::::::::::*/
+
+table {
+    border-collapse: collapse;
+    width: 25%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    height: auto;
+    margin-left: 60px;
+    
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 10px;
+  }
+
+
+  tr:nth-child(even) {
+    background-color: #FFFFFF;
+  }
